@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>E-Commerce Site</title>
+  </head>
+  <body>
+
+    <div class="navbar-container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="./amazon1.jpg" alt="">
+        </div>
+        <div class="cart-icon">
+          <a  href="./index.html"><b>Home</b></a>
+        </div>
+        <div class="cart-icon">
+          <a id="electronics-link" href="#"><b>Electronics</b></a>
+        </div>
+        <div class="cart-icon">
+          <a id="jewellery-link" href="#"><b>Jewellery</b></a>
+        </div>
+        <div class="cart-icon">
+          <a id="mens-clothing-link" href="#"><b>Men's Clothing</b></a>
+        </div>
+        <div class="cart-icon">
+          <a id="womens-clothing-link" href="#"><b>Women's Clothing</b></a>
+        </div>
+        <div class="cart-icon">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <sup class="dynamic-count"></sup>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container">
+        <div class="renderData"></div>
+      <div class="renderCartData">
+        <div class="emptyCart">
+          <h1>Add Items in the Cart</h1>
+        </div>
+        <div class="yourCart-items">
+          <div class="cItems">
+            <h1>Your Added Items</h1>
+          </div>
+        </div>
+        <div class="line">
+          <hr>
+        </div>
+        <div class="tContainer">
+          <p id="total_price"></p>
+        <a href="./proceed.html"> <button>CheckOut</button></a>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
